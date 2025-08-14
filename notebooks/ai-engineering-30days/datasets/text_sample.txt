@@ -1,0 +1,3 @@
+OpenAI's models are changing how developers build software.
+Machine learning pipelines require good data and monitoring.
+This small text corpus is for tokenization and basic NLP exercises.

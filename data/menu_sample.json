@@ -1,0 +1,98 @@
+[
+  {
+    "id": "burger_cheese",
+    "name": "Cheeseburger",
+    "aliases": [
+      "cheese burger",
+      "cheesey burger"
+    ],
+    "base_price": 89.0,
+    "sizes": null,
+    "size_price_deltas": null,
+    "modifiers": [
+      {
+        "id": "no_pickles",
+        "type": "remove",
+        "label": "No pickles",
+        "price": 0.0
+      },
+      {
+        "id": "extra_cheese",
+        "type": "add",
+        "label": "Extra cheese",
+        "price": 15.0
+      }
+    ],
+    "tags": [
+      "beef",
+      "grill",
+      "combo_eligible"
+    ],
+    "availability": {
+      "start": "10:00",
+      "end": "23:59"
+    }
+  },
+  {
+    "id": "fries",
+    "name": "French Fries",
+    "aliases": [
+      "fries",
+      "chips"
+    ],
+    "base_price": 50.0,
+    "sizes": [
+      "small",
+      "medium",
+      "large"
+    ],
+    "size_price_deltas": {
+      "small": 0.0,
+      "medium": 15.0,
+      "large": 30.0
+    },
+    "modifiers": null,
+    "tags": [
+      "side"
+    ],
+    "availability": {
+      "start": "00:00",
+      "end": "23:59"
+    }
+  },
+  {
+    "id": "cola",
+    "name": "Cola",
+    "aliases": [
+      "coke",
+      "drink",
+      "soda"
+    ],
+    "base_price": 45.0,
+    "sizes": [
+      "small",
+      "medium",
+      "large"
+    ],
+    "size_price_deltas": {
+      "small": 0.0,
+      "medium": 10.0,
+      "large": 20.0
+    },
+    "modifiers": [
+      {
+        "id": "diet",
+        "type": "flavor",
+        "label": "Diet",
+        "price": 0.0
+      }
+    ],
+    "tags": [
+      "drink"
+    ],
+    "availability": {
+      "start": "00:00",
+      "end": "23:59"
+    }
+  }
+]
